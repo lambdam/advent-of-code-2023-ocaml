@@ -1,0 +1,28 @@
+# Compiled files
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmi
+*.o
+*.byte
+*.native
+*.opt
+
+# Build artifacts
+_build/
+install/
+doc/
+*.install
+*.odoc
+
+# Editor and IDE files
+*.merlin
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.mlproj
+*.mlpack
+*.mlb
