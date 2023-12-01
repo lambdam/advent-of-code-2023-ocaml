@@ -26,3 +26,6 @@ doc/
 *.mlproj
 *.mlpack
 *.mlb
+
+# Custom
+/puzzles
