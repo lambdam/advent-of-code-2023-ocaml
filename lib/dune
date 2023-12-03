@@ -1,2 +1,3 @@
 (library
- (name advent_of_code_2023_ocaml))
+ (name advent_of_code_2023_ocaml)
+ (libraries re))
