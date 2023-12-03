@@ -1,6 +1,3 @@
-let data = 
-  In_channel.with_open_bin "puzzles/day01.txt" In_channel.input_lines
-
 let is_digit c =
   let open Char in
   code c >= code '0' && code c <= code '9'
@@ -17,10 +14,10 @@ let extract_numbers line =
   in
   parse None None chars
 
-let result_day_1_part_1 lines =
+let get_result_day_1_part_1 lines =
   lines
   |> List.map extract_numbers
-  |> List.map (fun chars -> 
+  |> List.map (fun chars ->
     let (first, last) = chars in
     [first; last]
     |> List.to_seq
